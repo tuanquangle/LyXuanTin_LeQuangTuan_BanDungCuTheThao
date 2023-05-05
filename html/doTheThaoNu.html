@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồ Thể Thao</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/formModal.css">
+    <link rel="stylesheet" href="../fonts/themify-icons/themify-icons.css">
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    <script src="../js/check.js"></script>
+
+</head>
+
+<body>
+    <!-- Head -->
+    <div class="header">
+        <div class="header-top">
+            <div class="container">
+                <h4 class="hotline">Hotline: 0912644361 | 0905209982</h4>
+                <ul id="log" class="log text-white">
+                    <li class="js-dn">Đăng nhập</li>|
+                    <li class="js-dk">Đăng ký</li>
+                </ul>
+                <div id="welcome-message" class="log text-white">
+                    <p>Xin chào <span id="username-display"></span>!</p>
+                </div>
+            </div>
+        </div>
+        <div class="container header-mid">
+            <div class="logo">
+                <a href="../html/index.html"><img src="../img/logo.png" alt="Logo"></a>
+            </div>
+            <div class="btn-sr">
+                <input type="search" placeholder="Tìm kiếm sản phẩm ..." class="sr-main">
+                <i class="btn-sr-main ti-search"></i>
+            </div>
+            <div class="shopping-cart js-shopping-cart">
+                <button class="cart js-cart"><i class="cart-ic ti-shopping-cart"></i> Giỏ Hàng</button>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="header-bot">
+            <div class="container">
+                <ul class="nav text-white">
+                    <li><a href="../html/index.html">Trang Chủ</a></li>
+                    <li>
+                        <a href="">
+                            Đồ Thể Thao
+                            <i class="ic-down ti-arrow-circle-down"></i>
+                        </a>
+                        <ul class="sub-nav">
+                            <li><a href="#">Nữ</a></li>
+                            <li><a href="../html/doTheThaoNam.html">Nam</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            Phụ Kiện Thể Thao
+                            <i class="ic-down ti-arrow-circle-down"></i>
+                        </a>
+                        <ul class="sub-nav">
+                            <li><a href="../html/vo.html">Vớ</a></li>
+                            <li><a href="../html/giay.html">Giày</a></li>
+                            <li><a href="../html/phuKien.html">Phụ Kiện Thể Thao Khác</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            Dụng Cụ Thể Thao
+                            <i class="ic-down ti-arrow-circle-down"></i>
+                        </a>
+                        <ul class="sub-nav">
+                            <li><a href="../html/ta.html">Tạ</a></li>
+                            <li><a href="../html/mayTapGym.html">Máy Tập Gym</a></li>
+                            <li><a href="../html/dungCu.html">Dụng Cụ Khác</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../html/GioiThieu.html">Giới Thiệu</a></li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+    <!-- Slide -->
+    <div id="slide">
+        <img src="../img/intro.jfif" alt="">
+    </div>
+    <!-- Body Intro -->
+    <div class="container">
+        <div id="body-intro">
+            <!-- Bấm chuyển sang trang đồ thể thaothao -->
+            <div class="img-intro">
+                <a href="../html/doTheThao.html">
+                    <img src="../img/bodyIntro1.webp" alt="">
+                    <p class="intro-content">Đồ Thể Thao</p>
+                </a>
+            </div>
+            <!-- Bấm chuyển sang trang phụ kiện -->
+            <div class="img-intro">
+                <a href="../html/phuKien.html">
+                    <img src="../img/bodyIntro2.png" alt="">
+                    <p class="intro-content">Phụ Kiện Thể Thao</p>
+                </a>
+            </div>
+            <!-- Bấm chuyển sang trang dụng cụ -->
+            <div class="img-intro">
+                <a href="../html/dungCu.html">
+                    <img src="../img/bodyIntro3.jpg" alt="">
+                    <p class="intro-content">Dụng Cụ Thể Thao</p>
+                </a>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <hr style="color: black;">
+    <!-- List Items + More Box -->
+    <div class="body-list-items">
+        <!-- SP Bán Chạy - Best Saler -->
+        <div class="container">
+            <div id="list-items">
+                <div class="list-name">
+                    <h2>Đồ Thể Thao Nữ</h3>
+                </div>
+                <div class="container-items">
+                    <!-- item1 -->
+                    <div class="item-show">
+                        <div class="container-info-product">
+                            <div class="item-info">
+                                <a href="../html/trangSanPham.html"><img src="../img/AoNu/ao5.2.webp" alt=""></a>
+                                <a href="../html/trangSanPham.html" class="link-item">
+                                    <h4 class="item-name">Set Áo Ba Lỗ Nữ N5</h4>
+                                    <p class="item-price"><span>320.000</span>đ</p>
+                                </a>
+                            </div>
+                            <button class="btn-add-product js-btn-add-product">Thêm Vào Giỏ Hàng</button>
+                            <button class="btn-buy js-btn-buy">Đặt Hàng Ngay <i
+                                    class="buy-ic ti-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <!-- item2 -->
+                    <div class="item-show">
+                        <div class="container-info-product">
+                            <div class="item-info">
+                                <a href="../html/trangSanPham.html"><img src="../img/sp2.webp" alt=""></a>
+                                <a href="../html/trangSanPham.html" class="link-item">
+                                    <h4 class="item-name">Set đồ nữ M1201</h4>
+                                    <p class="item-price"><span>320.000</span>đ</p>
+                                </a>
+                            </div>
+                            <button class="btn-add-product js-btn-add-product">Thêm Vào Giỏ Hàng</button>
+                            <button class="btn-buy js-btn-buy">Đặt Hàng Ngay <i
+                                    class="buy-ic ti-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <!-- item3 -->
+                    <div class="item-show">
+                        <div class="container-info-product">
+                            <div class="item-info">
+                                <a href="../html/trangSanPham.html"><img src="../img/sp4.webp" alt=""></a>
+                                <a href="../html/trangSanPham.html" class="link-item">
+                                    <h4 class="item-name">Quần đùi nữ 2 lốp mỏng nhẹ</h4>
+                                    <p class="item-price"><span>200.000</span>đ</p>
+                                </a>
+                            </div>
+                            <button class="btn-add-product js-btn-add-product">Thêm Vào Giỏ Hàng</button>
+                            <button class="btn-buy js-btn-buy">Đặt Hàng Ngay <i
+                                    class="buy-ic ti-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <!-- item4 -->
+                    <div class="item-show">
+                        <div class="container-info-product">
+                            <div class="item-info">
+                                <a href="../html/trangSanPham.html"><img src="../img/AoNu/ao2.2.webp" alt=""></a>
+                                <a href="../html/trangSanPham.html" class="link-item">
+                                    <h4 class="item-name">áo ba lỗ nữ</h4>
+                                    <p class="item-price"><span>120.000</span>đ</p>
+                                </a>
+                            </div>
+                            <button class="btn-add-product js-btn-add-product">Thêm Vào Giỏ Hàng</button>
+                            <button class="btn-buy js-btn-buy">Đặt Hàng Ngay <i
+                                    class="buy-ic ti-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="list-items">
+                <div class="container-items">
+                    <!-- item1 -->
+                    <div class="item-show">
+                        <div class="container-info-product">
+                            <div class="item-info">
+                                <a href="../html/trangSanPham.html"><img src="../img/AoNu/ao3.1.webp" alt=""></a>
+                                <a href="../html/trangSanPham.html" class="link-item">
+                                    <h4 class="item-name">Áo Thun Nữ N3</h4>
+                                    <p class="item-price"><span>99.000</span>đ</p>
+                                </a>
+                            </div>
+                            <button class="btn-add-product js-btn-add-product">Thêm Vào Giỏ Hàng</button>
+                            <button class="btn-buy js-btn-buy">Đặt Hàng Ngay <i
+                                    class="buy-ic ti-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <!-- item2 -->
+                    <div class="item-show">
+                        <div class="container-info-product">
+                            <div class="item-info">
+                                <a href="../html/trangSanPham.html"><img src="../img/AoNu/ao6.2.webp" alt=""></a>
+                                <a href="../html/trangSanPham.html" class="link-item">
+                                    <h4 class="item-name">Áo Basic Nữ N6</h4>
+                                    <p class="item-price"><span>150.000</span>đ</p>
+                                </a>
+                            </div>
+                            <button class="btn-add-product js-btn-add-product">Thêm Vào Giỏ Hàng</button>
+                            <button class="btn-buy js-btn-buy">Đặt Hàng Ngay <i
+                                    class="buy-ic ti-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <!-- item3 -->
+                    <div class="item-show">
+                        <div class="container-info-product">
+                            <div class="item-info">
+                                <a href="../html/trangSanPham.html"><img src="../img/AoNu/ao4.1.webp" alt=""></a>
+                                <a href="../html/trangSanPham.html" class="link-item">
+                                    <h4 class="item-name">Set Ba Lỗ Ôm N4</h4>
+                                    <p class="item-price"><span>350.000</span>đ</p>
+                                </a>
+                            </div>
+                            <button class="btn-add-product js-btn-add-product">Thêm Vào Giỏ Hàng</button>
+                            <button class="btn-buy js-btn-buy">Đặt Hàng Ngay <i
+                                    class="buy-ic ti-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <!-- item4 -->
+                    <div class="item-show">
+                        <div class="container-info-product">
+                            <div class="item-info">
+                                <a href="../html/trangSanPham.html"><img src="../img/AoNu/ao8.1.webp" alt=""></a>
+                                <a href="../html/trangSanPham.html" class="link-item">
+                                    <h4 class="item-name">Áo Thun Tay Dài Nữ N8</h4>
+                                    <p class="item-price"><span>150.000</span>đ</p>
+                                </a>
+                            </div>
+                            <button class="btn-add-product js-btn-add-product">Thêm Vào Giỏ Hàng</button>
+                            <button class="btn-buy js-btn-buy">Đặt Hàng Ngay <i
+                                    class="buy-ic ti-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr style="color: black;">
+    <!-- Guarantee Image -->
+    <div class="container">
+        <div id="guarantee-pic">
+            <img src="../img/gua-pic.jpg" alt="">
+        </div>
+    </div>
+    <hr style="color: black;">
+    <!-- Message Gop y -->
+    <div id="message">
+        <fieldset>
+            <legend>Góp Ý Của Khách Hàng</legend>
+            <div id="message-shop">
+                <label for="">Tất cả ý kiến của mọi người sẽ được shop tiếp nhận, xem xét và cải thiện một cách phù
+                    hợp.</label><br>
+                <label for="">Sự quan tâm, góp ý của các bạn là niềm vinh hạnh của chúng tôi.</label><br>
+                <label for="">Xin chân thành cám ơn ...</label><br>
+            </div>
+            <input type="text" name="Message" id="message-input" placeholder="Ý kiến khách hàng ...">
+            <div class="btn-message">
+                <input type="button" value="Gửi">
+            </div>
+        </fieldset>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <!-- Map -->
+        <div id="local-pic">
+            <div class="container">
+                <h2 class="text-white">BẢN ĐỒ</h2>
+                <a href="https://bom.so/JgXowG"><img src="../img/local.jpg" alt=""></a>
+            </div>
+        </div>
+        <hr style="color: white;">
+        <!-- End -->
+        <div class="container">
+            <div class="end-web">
+                <div class="logo">
+                    <a href="../html/index.html"><img src="../img/logo.png" alt="Logo"></a>
+                </div>
+                <ul class="end-menu">
+                    <li><i class="end-ic ti-location-pin"></i>12 Nguyễn Văn Bảo, Phường 4, Gò Vấp, Thành phố Hồ Chí Minh
+                    </li>
+                    <li><i class="end-ic ti-mobile"></i>0912644361 | 0905209982</li>
+                    <li><i class="end-ic ti-email"></i>lyxuantin113@gmail.com</li>
+                    <li><i class="end-ic ti-themify-favicon"></i><a
+                            href="../html/index.html">https://www.sportshopping.com.vn</a></li>
+                </ul>
+                <ul class="end-menu2">
+                    <h3>Liên Kết Cùng Chúng Tôi</h3>
+                    <li><a href=""><i class="end-ic ti-youtube"></i></a></li>
+                    <li><a href=""><i class="end-ic ti-instagram"></i></a></li>
+                    <li><a href=""><i class="end-ic ti-github"></i></a></li>
+                    <li><a href="https://www.facebook.com/thanh.thanhphong.5454"><i class="end-ic ti-facebook"></i></a>
+                    </li>
+                    <li><a href=""><i class="end-ic ti-twitter"></i></a></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL LOG -->
+
+    <!-- Modal Dang Ky -->
+    <div class="js-modal-dk modal-dk">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close-dk">
+                <i class="ic-close-modal ti-close"></i>
+            </div>
+            <div id="head-modal">
+                Đăng Ký
+            </div>
+            <div id="body-modal">
+                <form action="#">
+                    <label class="modal-label" for="dk-name">Tên Đăng Nhập *</label>
+                    <input class="modal-input" type="text" required name="dk-name" id="dk-name"
+                        placeholder="Điền tên đăng nhập...">
+                    <div>
+                        <span id="dkTen"></span>
+                    </div>
+                    <label class="modal-label" for="dk-email">Email *</label>
+                    <input class="modal-input" type="text" required name="dk-email" id="dk-email"
+                        placeholder="Điền Email liên kết của bạn...">
+                    <div>
+                        <span id="dkEmail"></span>
+                    </div>
+                    <label class="modal-label" for="dk-pass">Nhập mật khẩu *</label>
+                    <input class="modal-input" type="text" required name="dk-pass" id="dk-pass"
+                        placeholder="Nhập mật khẩu...">
+                    <div>
+                        <span id="dkMK"></span>
+                    </div>
+                    <label class="modal-label" for="dk-re-pass">Nhập lại mật khẩu *</label>
+                    <input class="modal-input" type="text" required name="dk-re-pass" id="dk-re-pass"
+                        placeholder="Nhập lại để xác nhận mật khẩu...">
+                    <div>
+                        <span id="dkReMK"></span>
+                    </div>
+                    <div class="modal-submit">
+                        <button type="submit" id="btnSubmitDK">Đăng Ký</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Dang Nhap -->
+    <div class="js-modal-dn modal-dn">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close-dn">
+                <i class="ic-close-modal ti-close"></i>
+            </div>
+            <div id="head-modal">
+                Đăng Nhập
+            </div>
+            <div id="body-modal">
+                <form action="#">
+                    <label class="modal-label" for="dn-name">Tên Đăng Nhập *</label>
+                    <input class="modal-input" type="text" name="dn-name" id="dn-name"
+                        placeholder="Điền tên đăng nhập..." required>
+                    <div>
+                        <span id="dnTen"></span>
+                    </div>
+                    <label class="modal-label" for="dn-pass">Nhập mật khẩu *</label>
+                    <input class="modal-input" type="text" name="dn-pass" required id="dn-pass"
+                        placeholder="Nhập mật khẩu...">
+                    <div>
+                        <span id="dnMK"></span>
+                    </div>
+                    <div class="modal-submit">
+                        <button type="submit" id="btnSubmitDN">Đăng Nhập</button>
+                    </div>
+                </form>
+                <div>
+                    <ul class="log-link">
+                        <li><a href=""><i id="btnIns" class="log-in-ic ti-instagram"></i></a></li>
+                        <li><a href=""><i id="btnGg" class="log-in-ic ti-google"></i></a></li>
+                        <li><a href=""><i id="btnFb" class="log-in-ic ti-facebook"></i></a></li>
+                        <li><a href=""><i id="btnTt" class="log-in-ic ti-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL BUY -->
+
+    <div class="js-modal-buy modal-buy">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close-buy">
+                <i class="ic-close-modal ti-close"></i>
+            </div>
+            <div id="head-modal">
+                Thông Tin Đặt Hàng
+            </div>
+            <div id="body-modal">
+                <form name="check-modal-buy" action="#">
+                    <label class="modal-label" for="buy-name">Tên Người Nhận *</label>
+                    <input class="modal-input" type="text" name="buy-name" id="buy-name" required
+                        placeholder="Nhập tên ...">
+                    <div>
+                        <span id="ttTen"></span>
+                    </div>
+                    <label class="modal-label" for="buy-phone">Số Điện Thoại *</label>
+                    <input class="modal-input" type="text" name="buy-phone" id="buy-phone" required
+                        placeholder="Nhập số điện thoại ...">
+                    <div>
+                        <span id="ttPhone"></span>
+                    </div>
+                    <label class="modal-label" for="buy-dc">Địa chỉ *</label>
+                    <input class="modal-input" type="text" name="buy-dc" id="buy-dc" required
+                        placeholder="Nhập địa chỉ ...">
+                    <div>
+                        <span id="ttDc"></span>
+                    </div>
+                    <label class="modal-label" for="buy-ghiChu">Ghi chú</label>
+                    <input class="modal-input" type="text" name="buy-ghiChu" id="buy-ghiChu" placeholder="Ghi chú ...">
+                    <label class="modal-label" for="buy-pay">Chọn hình thức thanh toán *</label>
+                    <select class="modal-input" name="buy-pay" id="buy-pay">
+                        <option value="TienMat">Tiền mặt</option>
+                        <option value="Momo">Momo</option>
+                        <option value="ZaloPay">ZaloPay</option>
+                        <option value="BankingOnl">Banking Online</option>
+                    </select>
+                    <div class="modal-submit">
+                        <button type="submit" value="Đặt Hàng" id="btnSubmitTT">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL CART -->
+
+    <div class="js-modal-cart modal-cart">
+        <div class="modal-cart-container js-modal-container">
+            <div class="modal-close js-modal-close-cart">
+                <i class="ic-close-modal ti-close"></i>
+            </div>
+            <div id="head-modal">
+                Giỏ Hàng
+            </div>
+            <div class="body-cart">
+                <div class="head-cart-products">
+                    <div class="head-text product-col">Sản Phầm</div>
+                    <div class="head-text price-col">Giá</div>
+                    <div class="head-text number-col">Số Lượng</div>
+                    <div class="head-text total-col">Thành Tiền</div>
+                    <div class="head-text del-col">Xóa</div>
+                </div>
+                <div class="products-cart"></div>
+
+            </div>
+            <div class="footer-cart">
+                <div class="modal-submit buy js-buy js-btn-buy">
+                    <button>Mua</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS MODAL LOG -->
+    <script src="../js/modalDkDN.js"></script>
+
+    <!-- JS MODAL BUY NOW -->
+    <script src="../js/buyNow.js"></script>
+
+    <!-- JS MODAL CART -->
+    <script src="../js/modalCart.js"></script>
+
+    <!-- ADD Products To Cart -->
+    <script src="../js/themVaoGioHang.js"></script>
+</body>
+
+</html>

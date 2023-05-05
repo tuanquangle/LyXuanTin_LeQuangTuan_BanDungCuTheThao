@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* css chung */
+
+.text-white {
+    color: white;
+}
+
+.clear {
+    clear: both;
+}
+/*  */
+
+/* Head Top */
+.header-top {
+    height: 46px;
+    background-color: rgb(30, 30, 30);
+}
+
+.container {
+    margin: 0 32px;
+}
+
+.header-top .hotline {
+    width: 300px;
+    line-height: 46px;
+    color: rgb(200, 45, 45);
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.header-top .log {
+    list-style-type: none;
+    float: right;
+}
+
+.header-top .log li{
+    padding: 0 16px;
+    line-height: 46px;
+    display: inline-block;
+}
+
+.header-top .log li:hover {
+    color: red;
+    cursor: pointer;
+}
+
+/* Head Mid */
+.logo,
+.btn-sr,
+.shopping-cart {
+    float: left;
+}
+
+/* Logo */
+.logo img {
+    width: 200px;
+    padding: 0 10px;
+    margin-left: 32px;
+}
+
+/* Tim kiem */
+.btn-sr {
+    margin: 42px 36px;
+    border: 3px solid red;
+    border-radius: 5px;
+}
+
+.sr-main {
+    width: 650px;
+    padding: 16px;
+    border: none;
+}
+
+.btn-sr-main {
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-size: 20px;
+}
+
+.btn-sr-main:hover {
+    cursor: pointer;
+    color: rgb(200, 45, 45);
+}
+
+/* Gio Hang */
+.cart {
+    font-size: 20px;
+    padding: 25px;
+    margin-top: 32px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(200, 45, 45);
+}
+
+.cart:hover {
+    background-color: rgb(110, 25, 25);
+    cursor: pointer;
+}
+
+/* Head Bot */
+.header-bot {
+    height: auto;
+    background-color: rgb(200, 45, 45);
+}
+
+/* nav */
+.nav,
+.sub-nav {
+    list-style-type: none;
+}
+
+.nav > li {
+    display: inline-block;
+    position: relative;
+}
+
+.nav > li > a {
+    padding: 0 16px;
+    line-height: 40px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+.nav li:hover {
+    background-color: rgb(50, 50, 50);;
+    cursor: pointer;
+}
+
+.sub-nav {
+    box-shadow: 0 0 10px black;
+}
+
+/* icon */
+.ic-down {
+    font-size: 14px;
+}
+
+/* sub nav */
+.sub-nav {
+    position: absolute;
+    background-color: rgb(200, 45, 45);
+}
+
+.sub-nav li {
+    top: 40px;
+    display: none;
+}
+
+.sub-nav li a {
+    line-height: 38px;
+    padding: 0px 16px;
+    width: 250px;
+}
+
+.nav li:hover .sub-nav li {
+    display: block;
+}
+
+/*  */
+
+/* Slide */
+#slide,
+#body-intro .img-intro {
+    margin-bottom: 46px;
+}
+
+#slide img{
+    width: 100%;
+}
+
+/* Body Intro */
+#body-intro .img-intro {
+    width: 33.33333%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+#body-intro .img-intro img {
+    width: 90%;
+}
+
+#body-intro .img-intro:hover img {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.intro-content {
+    top: 40%;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 1000;
+    padding: 8px 16px;
+    color: white;
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+    position: absolute;
+    display: none;
+}
+
+#body-intro .img-intro:hover .intro-content {
+    display: block;
+    cursor: pointer;
+}
+
+/* List Items */
+#list-items .list-name {
+    width: 400px;
+    margin: 15px auto 25px;
+    padding: 10px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+/* Container Item */
+.container-items {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+/* Show Item */
+.item-show {
+    width: 25%;
+    float: left;
+    border: 1px solid black;
+    margin: 0 16px 30px;
+}
+
+    /* border hover */
+.item-show:hover {
+    border: 3px double rgb(200, 45, 45);
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(200, 45, 45);
+}
+
+/* Item Picture */
+.item-show .item-info {
+    text-align: center;
+    padding: 8px 0;
+    min-height: 300px;
+}
+
+.item-show .item-info img {
+    width: 90%;
+}
+
+/* Item Info */
+.container-info-product {
+    margin: 0 4px 2px;
+}
+
+.item-name {
+    text-transform: uppercase;
+    font-family: math;
+    margin-bottom: 8px;
+}
+
+.item-price {
+    color: red;
+    margin-bottom: 8px;
+}
+
+.btn-add-product {
+    margin-bottom: 4px;
+}
+
+.btn-add-product,
+.btn-buy {
+    width: 100%;
+    padding: 14px 0;
+    color: white;
+    background-color: rgb(200, 45, 45);
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+}
+
+/* Link Item */
+.link-item {
+    text-decoration: none;
+    color: black;
+}
+/* Hover Btn-Buy */
+.btn-add-product:hover,
+.item-show .btn-buy:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+/* Button Xem Them */
+.more-box {
+    text-align: center;
+}
+
+.btn-more {
+    margin-bottom: 50px;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    background-color: rgb(200, 45, 45);
+    border: none;
+    border-radius: 2px;
+}
+
+.btn-more:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/*  */
+#guarantee-pic img {
+    width: 100%;
+    margin: 4px 0;
+}
+
+/* Gop Y */
+
+#message {
+    background-color: rgb(15, 15, 15);
+}
+
+#message fieldset {
+    padding-bottom: 12px;
+}
+
+#message-shop {
+    margin-top: 8px;
+}
+
+#message label {
+    padding: 12px 16px;
+    color: white;
+}
+
+#message legend {
+    color: white;
+    margin-left: 100px;
+    text-transform: uppercase;
+}
+
+#message-input {
+    width: 96%;
+    margin: 8px 16px 12px;
+    padding: 8px 8px 80px;
+}
+
+.btn-message {
+    text-align: center;
+}
+
+.btn-message input {
+    padding: 6px 20px;
+    margin-bottom: 12px;
+}
+
+.btn-message input:hover {
+    cursor: pointer;
+    background-color: rgb(200, 45, 45);
+}
+
+/* Map */
+.footer {
+    background-color: rgb(15, 15, 15);
+}
+
+#local-pic img{
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+#local-pic:hover img {
+    opacity: 0.8;
+}
+
+#local-pic h2 {
+    margin-bottom: 8px;
+    padding-top: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+/* Footer */
+
+.end-web {
+    padding: 16px 0;
+}
+
+/* Menu 1 */
+
+.end-menu {
+    float: left;
+    list-style-type: none;
+}
+
+.end-menu li {
+    margin: 10px 80px 0;
+    color: white;
+}
+
+.end-menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.end-menu li:hover a {
+    color: rgba(200, 45, 45, .9);
+}
+
+.end-ic {
+    padding: 4px;
+    font-size: 16px;
+    margin-right: 4px;
+}
+
+/* Menu 2 */
+
+.end-menu2 {
+    float: left;
+    list-style-type: none;
+}
+
+.end-menu2 h3 {
+    margin-top: 25px;
+    color: white;
+}
+
+.end-menu2 li {
+    display: inline-block;
+    padding: 4px;
+    margin-top: 5px;
+}
+
+.end-menu2 li a {
+    color: white;
+    text-decoration: none;
+}
+
+.end-menu2 .end-ic {    
+    font-size: 20px;
+}
+
+.end-menu2 li:hover a {
+    color: rgb(200, 45, 45);
+}
+
+/* Main Text Of Content Page*/
+.text-main {
+    color: rgb(15, 15, 15);
+    font-size: 40px;
+    font-weight: 600;
+    font-family: monospace;
+    padding: 40px;
+    letter-spacing: 6px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header .header-top .hide {
+    display: none !important;
+}
+
+/*  */
+/*  */
+/*  */
+
+.mauDo {
+    font-size: 100%;
+    color: red !important;
+}
+
+#welcome-message {
+    display: none;
+    line-height: 40px;
+}
